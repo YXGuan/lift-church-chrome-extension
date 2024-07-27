@@ -1,13 +1,8 @@
 
 
-yx notes:
-
-nothing bad happens after deleting the
-
- "background": {
-    "scripts": ["background.js"],
-    "persistent": false
-  },
+Important File:
+All the verses are located at inside --> src --> data --> lift_devo_abbreviated_xReferenced_updated_no_dash_null_with_verses.json
+Those verses and comments should be verified as they are currently AI generated. 
 
 TODO:
 1. publish to GitHub,
@@ -16,6 +11,11 @@ TODO:
 https://chromewebstore.google.com/detail/web-activity-time-tracker/hhfnghjdeddcfegfekjeihfmbjenlomm?hl=en
 4. remove all the console logs before the next update
 5. what's the best way to update YouTube video?
+
+
+Original repo:
+https://github.com/AtaGowani/daily-motivation/tree/master
+credits to AtaGowani
 
 <p align="center"><img src="https://raw.githubusercontent.com/AtaGowani/DailyMotivation/master/.github/logo.png" alt="logo" height="150px"></p>
 <h1 align="center">Daily Motivation</h1>
