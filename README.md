@@ -5,12 +5,12 @@ All the verses are located at inside --> src --> data --> lift_devo_abbreviated_
 Those verses and comments should be verified as they are currently AI generated. 
 
 TODO:
-1. publish to GitHub,
+~~1. publish to GitHub,~~
 2. generated verses review
 3. a more advanced time tracking version
 https://chromewebstore.google.com/detail/web-activity-time-tracker/hhfnghjdeddcfegfekjeihfmbjenlomm?hl=en
 4. remove all the console logs before the next update
-5. what's the best way to update YouTube video?
+5. what's the best way to update YouTube video? Right now it's hardcoded
 
 
 Original repo:
