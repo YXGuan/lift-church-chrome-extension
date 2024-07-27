@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <link rel="stylesheet" href="src/css/style.css">
+  <title>New Tab</title>
+</head>
+
+<body id="body">
+  <span>
+    <img src="./src/imgs/settings.svg" alt="Settings" class="settings">
+    <span class="tooltip">
+      <img src="./src/imgs/cross-out.svg" alt="Close" class="tooltip-close">
+      New themes added!
+    </span>
+  </span>
+  <div id="settings">
+    <span><img src="./src/imgs/cross-out.svg" alt="Close" class="close"></span>
+    <div class="options">
+      <p class="options-title">Available Themes</p>
+      <!-- <div class="container" onclick="setTheme('bubbles'); closeNav()">
+        <img src="./src/imgs/bubbles.png" alt="Bubbles">
+        <div class="overlay">
+          <div class="text">
+            Bubbles
+          </div>
+        </div>
+      </div> -->
+      <div class="container" id="connected">
+        <img src="./src/imgs/connected.png" alt="Connected">
+        <div class="overlay">
+          <div class="text">
+            Connected
+          </div>
+        </div>
+      </div>
+      <div class="container" id="connectedBlue">
+        <img src="./src/imgs/connectedBlue.png" alt="Connected Blue">
+        <div class="overlay">
+          <div class="text">
+            Connected Blue
+          </div>
+        </div>
+      </div>
+      <div class="container" id="connectedDarkBlue">
+        <img src="./src/imgs/connectedDarkBlue.png" alt="Connected Dark Blue">
+        <div class="overlay">
+          <div class="text">
+            Connected Dark Blue
+          </div>
+        </div>
+      </div>
+      <div class="container" id="clear">
+        <img src="./src/imgs/clear.png" alt="Clear">
+        <div class="overlay">
+          <div class="text">
+            Clear
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <div class="quote-block">
+    <div>
+      <p id="quote"></p>
+      <p id="explaination"></p>
+      <p><a href="https://liftchurch.engagespaces.com/devos/" class="author-style">Today's Daily Devo:</a> 
+        <p id="link-container"> <a id="dynamic-link" href="#"><span id="author"></span></a></p>
+        </p>
+      <p>cross reference <span id="xReference"></span></p>
+    </div>
+    <div>
+      <iframe width="560" height="315" src="https://www.youtube.com/embed/v9fwTWfKihE?si=RNtv4q3GWsWenL-T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>    </div>
+    </div>
+
+    <footer>
+      <p>
+        <span class="spacer">       Follow Lift on:         </span>
+        <span class="icons">
+          <a href="https://www.youtube.com/@LiftchurchCanada" target="_blank">
+            <img src="src/imgs/YouTube_icon.svg" alt="YouTube">
+          </a>
+          <a href="https://open.spotify.com/show/6UaexlCYnsVQa3qWfT9jNn" target="_blank">
+            <img src="src/imgs/Spotify_icon.svg" alt="Spotify">  
+          </a>
+          <a href="https://www.instagram.com/lift.church/" target="_blank">
+            <img src="src/imgs/Instagram_logo_2016.svg" alt="Insta">  
+          </a>
+          <a href="https://discord.gg/JbbAAJaPmN" target="_blank">
+            <img src="src/imgs/discord-icon.svg" alt="Discord">
+          </a>
+          
+        </span>
+        <span class="spacer">Edited by:</span>
+        <a href="https://www.linkedin.com/in/yuxiang-guan/" class="linkColor">Lift members;</a>  
+        <span class="spacer">original author:</span>
+        <a href="http://www.atagowani.com" class="linkColor">Ata Gowani</a> 
+      </p>
+      <!-- <p class="downloadExtension">Download the extension <a href="https://chrome.google.com/webstore/detail/dailymotivation/nonnkklkpbokmppgochfdamhihaijdin">here!</a></p> -->
+    </footer>
+    
+  <script src="./vendor/js/clear.js"></script>
+  <!-- <script src="./vendor/js/colorfulBubbles.js"></script> -->
+  <script src="./vendor/js/connectedCanvas.js"></script>
+  <script src="./vendor/js/settingsBar.js"></script>
+  <script src="./vendor/js/app.js"></script>
+</body>
+
+</html>
