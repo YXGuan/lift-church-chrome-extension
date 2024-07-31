@@ -34,6 +34,11 @@ body {
   100% {transition: visibility hidden}
 }
 
+.logo-svg {
+  width: 200px;
+  height: 100px;
+}
+
 .quote-block {
   height: 100%;
   align-items: center;

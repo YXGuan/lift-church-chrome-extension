@@ -1,10 +1,12 @@
 
 
-Important File:
-All the verses are located at inside --> src --> data --> lift_devo_abbreviated_xReferenced_updated_no_dash_null_with_verses.json
+# Important File:
+
+All the verses are located at inside src/data/ lift_devo_abbreviated_xReferenced_updated_no_dash_null_with_verses.json
+
 Those verses and comments should be verified as they are currently AI generated. 
 
-TODO:
+# TODO:
 ~~1. publish to GitHub,~~
 2. generated verses review
 3. a more advanced time tracking version
@@ -13,16 +15,16 @@ https://chromewebstore.google.com/detail/web-activity-time-tracker/hhfnghjdeddcf
 5. what's the best way to update YouTube video? Right now it's hardcoded
 
 
-Original repo:
+# Original repo:
 https://github.com/AtaGowani/daily-motivation/tree/master
 credits to AtaGowani
 
-<p align="center"><img src="https://raw.githubusercontent.com/AtaGowani/DailyMotivation/master/.github/logo.png" alt="logo" height="150px"></p>
-<h1 align="center">Daily Motivation</h1>
+<p align="center"><img src="https://lh3.googleusercontent.com/p/AF1QipNtt-CqR7j8uhiRBNry64L1F_mgNaPkTzb-413L=s1360-w1360-h1020" alt="logo" height="150px"></p>
+<h1 align="center">LIFT devo</h1>
 
 ## Whaaat?!
 
-A Chrome extension that displays a new motivational quote every time a new tab is opened and provides you with a fun interactive background to play with!
+A Chrome extension that displays a LIFT daily devo quote every time a new tab is opened and provides you with a fun interactive background to play with!
 
 ## Development
 

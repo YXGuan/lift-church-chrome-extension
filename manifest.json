@@ -1,9 +1,9 @@
 {
   "manifest_version": 3,
-  "name": "Lift Church Daily Devo",
-  "version": "0.0.2",
-  "author": "the cool nerds",
-  "description": "Start every search with Lift Church Daily Devo. Credits to Ata Gowani and his Motivational Quotes extension",
+  "name": "LIFT Church Daily Devo",
+  "version": "0.1.0",
+  "author": "YXGuan",
+  "description": "Start every search with LIFT Church Daily Devo. Credits to Ata Gowani and his Motivational Quotes extension",
   "chrome_url_overrides" : {
     "newtab": "index.html"
   }

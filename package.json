@@ -1,7 +1,7 @@
 {
   "name": "daily_motivation",
   "version": "2.5.0",
-  "description": "Chrome extension to provide user with a motivational quote everytime a new tab is opened.",
+  "description": "Chrome extension to provide user with a LIFT church daily devo quote everytime a new tab is opened.",
   "main": "none",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -10,14 +10,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/AtaGowani/DailyMotivation.git"
+    "url": "git+https://github.com/YXGuan/lift-church-chrome-extension.git"
   },
-  "author": "Ata Gowani",
+  "author": "Ata Gowani & Yuxiang Guan",
   "license": "MIT",
   "bugs": {
-    "url": "https://github.com/AtaGowani/DailyMotivation/issues"
+    "url": "https://github.com/YXGuan/lift-church-chrome-extension/issues"
   },
-  "homepage": "https://github.com/AtaGowani/DailyMotivation#readme",
+  "homepage": "https://github.com/YXGuan/lift-church-chrome-extension",
   "devDependencies": {
     "babel-cli": "^6.26.0",
     "babel-core": "^6.26.0",
