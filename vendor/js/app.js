@@ -70,6 +70,7 @@ async function setQuoteAndChapter() {
       for (let entry of jsonData) {
           if (entry.Date === currentDate) {
               quote = entry.Tags;
+              console.log('quote', quote)
               let parts = quote.split('\n\n');
               quote = parts[0]
               explaination = parts[1]

@@ -1,7 +1,13 @@
 {
   "manifest_version": 3,
   "name": "LIFT Church Daily Devo",
-  "version": "0.1.0",
+  "version": "0.1.2",
+  "background": {
+    "service_worker": "background.js"
+  },
+  "permissions": [
+    "runtime"
+  ],
   "author": "YXGuan",
   "description": "Start every search with LIFT Church Daily Devo. Credits to Ata Gowani and his Motivational Quotes extension",
   "chrome_url_overrides" : {
