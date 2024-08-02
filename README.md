@@ -1,4 +1,4 @@
-
+download the extension [here](https://chromewebstore.google.com/detail/lift-church-daily-devo/dhhjdhoofkdjcjhjeghbabaknfpdaabe?authuser=0&hl=en-US)
 
 # Important File:
 
