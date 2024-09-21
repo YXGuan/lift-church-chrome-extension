@@ -73,7 +73,6 @@ body {
   margin: 0;
 }
 
-
 footer {
   font-size: 1rem;
   position: fixed;
@@ -84,7 +83,8 @@ footer {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #f8f8f8; /* Add a background color if needed */
+  background-color: transparent; /* Make the background transparent */
+  color: #fff; /* Default color for footer text */
 }
 
 footer p {
@@ -113,7 +113,7 @@ footer .icons img {
 
 footer a {
   text-decoration: none;
-  color: inherit;
+  color: #00f; /* Set color for links */
   font-weight: 200;
 }
 
@@ -123,6 +123,10 @@ footer a:hover {
 
 footer .spacer {
   margin: 0 1rem; /* Adjust margin for spacing */
+}
+
+footer .spacer.tip {
+  color: #000; /* Set specific color for this text */
 }
 
 canvas {
@@ -207,6 +211,64 @@ div.overlay {
   opacity: 0;
   transition: .5s ease;
   background-color: #5B5B5B;
+}
+
+/* Center the media iframes and set the same width */
+.media-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 10px; /* Adjust the gap between the quote and the media */
+}
+
+.media-iframe {
+  width: 560px; /* Adjust width */
+  height: 315px; /* Adjust height for YouTube */
+  margin-bottom: 20px; /* Add space between the two iframes */
+}
+
+/* Adjust Google Calendar's height */
+.media-iframe[src*="calendar.google.com"] {
+  height: 400px; /* You can change this to your preference */
+}
+
+/* Move YouTube iframe up slightly */
+iframe[src*="youtube.com"] {
+  margin-top: -10px; /* Adjust this value to move it up */
+}
+
+/* Dropdown Menu Styles */
+.dropdown {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #f9f9f9;
+  min-width: 160px;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #f1f1f1;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+.dropdown:hover .dropbtn {
+  background-color: #3e8e41;
 }
 
 .text {

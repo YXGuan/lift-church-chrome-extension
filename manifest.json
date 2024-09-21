@@ -1,7 +1,7 @@
 {
   "manifest_version": 3,
   "name": "LIFT Church Daily Devo",
-  "version": "0.1.4",
+  "version": "0.1.5",
   "background": {
     "service_worker": "background.js"
   },

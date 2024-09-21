@@ -11,6 +11,25 @@
   <span>
     <img src="./src/imgs/DrkBrn-Vert-Logo.svg" alt="LIFT Logo" class="logo-svg">
     <img src="./src/imgs/settings.svg" alt="Settings" class="settings">
+          <!-- Date Picker and Button -->
+    <!-- <div class="date-picker-container"> -->
+      <input type="date" id="datePicker">
+      <button id="pickDateButton">Pick Date</button>
+
+      <div class="dropdown">
+        <button class="dropbtn">Select a LIFT Calendar</button>
+        <div class="dropdown-content">
+          <a href="#" data-calendar-url="https://calendar.google.com/calendar/embed?src=50d994d6f87e45229f2559a74a61f75100c63795ef371e07728c9ec3822d5b3d%40group.calendar.google.com&ctz=America%2FToronto">Lift</a>
+          <a href="#" data-calendar-url="https://calendar.google.com/calendar/embed?src=238bcc2225a0e35fecf119518e9b811964767cbb54abecaf6b12ec090444b980%40group.calendar.google.com&ctz=America%2FToronto">McMaster</a>
+          <a href="#" data-calendar-url="">Brock</a>
+          <a href="#" data-calendar-url="">Guelph</a>
+          <a href="#" data-calendar-url="">UTM</a>
+          <a href="#" data-calendar-url="">Western</a>
+          <a href="#" data-calendar-url="">York</a>
+        </div>
+      </div>
+      
+    <!-- </div> -->
     <span class="tooltip">
       <img src="./src/imgs/cross-out.svg" alt="Close" class="tooltip-close">
       New themes added!
@@ -44,6 +63,14 @@
           </div>
         </div>
       </div>
+      <div class="container" id="test">
+        <img src="./src/imgs/test.png" alt="test">
+        <div class="overlay">
+          <div class="text">
+            Test
+          </div>
+        </div>
+      </div>
       <div class="container" id="clear">
         <img src="./src/imgs/clear.png" alt="Clear">
         <div class="overlay">
@@ -63,13 +90,30 @@
         </p>
       <p>cross reference <span id="xReference"></span></p>
     </div>
-    <div>
-      <iframe width="560" height="315" src="https://www.youtube.com/embed/tKf-FwIc2Us?si=swqCia-sCxGLd_-s" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+    
+    <!-- Wrapping the video and calendar in the same container -->
+    <div class="media-container">
+      <!-- YouTube Embedding -->
+      <iframe id="videoIframe" class="media-iframe" src="" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+      
+      <!-- Google Calendar Embedding -->
+      <iframe id="calendarIframe" class="media-iframe" src="" style="border: 0" frameborder="0" scrolling="no"></iframe>
+
+      <!-- <iframe class="media-iframe" src="https://calendar.google.com/calendar/embed?src=50d994d6f87e45229f2559a74a61f75100c63795ef371e07728c9ec3822d5b3d%40group.calendar.google.com&ctz=America%2FToronto" style="border: 0" frameborder="0" scrolling="no"></iframe> -->
     </div>
+    <!-- <iframe class="media-iframe" src="https://calendar.google.com/calendar/embed?src=238bcc2225a0e35fecf119518e9b811964767cbb54abecaf6b12ec090444b980%40group.calendar.google.com&ctz=America%2FToronto" style="border: 0" width="800" height="600" frameborder="0" scrolling="no"></iframe> -->
+
+    <!-- <iframe src="https://enduringword.com/bible-commentary/joshua-1/" 
+    style="border:none;" 
+    width="100%" 
+    height="1000px"
+    allowfullscreen>
+    </iframe> -->
+  </div>
 
     <footer>
       <p>
-        <span class="spacer">       Follow LIFT on:         </span>
+        <span class="spacer tip">       Follow LIFT on:         </span>
         <span class="icons">
           <a href="https://www.youtube.com/@LiftchurchCanada" target="_blank">
             <img src="src/imgs/YouTube_icon.svg" alt="YouTube">
@@ -85,10 +129,11 @@
           </a>
           
         </span>
-        <span class="spacer">Check out the source code:</span>
-        <a href="https://github.com/YXGuan/lift-church-chrome-extension" class="linkColor">Here</a>  
-        <span class="spacer">Raise a bug:</span>
-        <a href="https://github.com/YXGuan/lift-church-chrome-extension/issues" class="linkColor">Here</a>  
+        <a href="https://github.com/YXGuan/lift-church-chrome-extension" class="linkColor">Check out the source code</a>  
+        <span class="spacer"> </span>
+        <a href="https://chromewebstore.google.com/detail/lift-church-daily-devo/dhhjdhoofkdjcjhjeghbabaknfpdaabe?authuser=0&hl=en-US" class="linkColor">HomePage</a>  
+        <span class="spacer tip">Tip: Use Ctrl,Shift,B to control your bookmark bar</span>
+
         <!-- <span class="spacer">Edited by:</span>
         <a href="https://www.linkedin.com/in/yuxiang-guan/" class="linkColor">Lift members;</a>  
         <span class="spacer">original author:</span>
